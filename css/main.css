@@ -21,18 +21,34 @@ html {
 
 .nav a {
   text-decoration: none;
+  border: 3px solid #2d5a4d;
+  background-color: #467366;
+  color: #fff;
+  border-radius: 8px;
 }
 
 .nav a:hover {
-
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/leaf-icon.svg");
+  background-size: contain;
+  background-color: #fff;
+  color: #145b1d;
 }
 
 .banner {
-
+  background-position: center bottom;
+  background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-size: cover;
 }
 
 .banner-content {
-
+  background-repeat: no-repeat;
+  background-size: 100px;
+  padding-top: 300px;
+  background-image: url("../images/two-leaves.svg");
+  color: #fff;
+  background-position: left;
 }
 
 @media only screen and (min-width: 60em) {
